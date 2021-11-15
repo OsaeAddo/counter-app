@@ -13,8 +13,8 @@ class Counter extends React.Component {
     fontWeight: "bold",
   };
 
-  handleIncrement() {
-    console.log("Increment Clicked", this.state.count);
+  handleIncrement = ()=> {
+    console.log("Increment Clicked", this);
   }
 
   render() {
